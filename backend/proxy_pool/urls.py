@@ -1,0 +1,1 @@
+from django.conf.urls import urlfrom . import viewsurlpatterns = [    url(r'^proxy/?$', views.ProxyListView.as_view(), name='proxy_list_view'),    url(r'^manual_start/?$', views.manual_get_proxy, name='manual_start_view'),]

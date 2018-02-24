@@ -1,0 +1,1 @@
+from rest_framework import serializersfrom proxy_pool.models import Proxyclass ProxyListSerializer(serializers.ModelSerializer):    class Meta:        model = Proxy        fields = "__all__"

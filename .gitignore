@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+backend/celerybeat-schedule.bak
+backend/celerybeat-schedule.dat
+backend/celerybeat-schedule.dir
+backend/db.sqlite3

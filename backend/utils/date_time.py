@@ -1,0 +1,1 @@
+import timefrom datetime import datetimedef now():    n = datetime.now()    return int(time.mktime(n.timetuple()))
